@@ -1,10 +1,24 @@
 @extends('layouts.app')
 @section('content')
-料理名：{{$name}}<br>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">詳細</div>
+                    <div class="card-body">
+                        料理名：{{$name}}<br>
+                        作り方：{{$process}}<br>
+                        <a href="updateform?id={{$id}}">
+                            修正する</a>
+                        <a href="delete?id={{$id}}">削除する</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-作り方：{{$process}}<br>
 
-<a href="updateform?id={{$id}}">
-    修正する</a>
-<a href="delete?id={{$id}}">削除する</a>
+
+
+
 @endsection
