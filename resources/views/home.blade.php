@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">はるごはん🍚🍙</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -13,8 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    はるごはん🍚🍙
                         <a href="newrecipe" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">新しいレシピを追加</a>
                         </div>
                 <?php
