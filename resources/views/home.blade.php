@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    はるごはん🍚
+                    はるごはん🍚🍙
                         <a href="newrecipe" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">新しいレシピを追加</a>
                         </div>
                 <?php
