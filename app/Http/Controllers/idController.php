@@ -19,6 +19,7 @@ class idController extends Controller
 //            する時に１５行目で取ってきた$recipe->nameと$recipe->processを送る
             'name'=>$recipe->name,
             'process'=>$recipe->process,
+            'material'=>$recipe->material,
             'id' =>$recipe->id
         ]);
 
