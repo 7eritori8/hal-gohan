@@ -4,5 +4,7 @@
 
 {{$process}}<br>
 
+{{$material}}
+
 <a href="/">home</a>
 @endsection
