@@ -1,10 +1,23 @@
 @extends('layouts.app')
 @section('content')
-{{$name}}<br>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">確認ページ</div>
+                    <div class="card-body">
+                        {{$name}}<br>
 
-{{$process}}<br>
+                        材料：{{$material}}<br>
 
-{{$material}}
+                        作り方：{{$process}}<br>
 
-<a href="/">home</a>
+
+                        <a href="/">home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection
