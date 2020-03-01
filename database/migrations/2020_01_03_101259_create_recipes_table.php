@@ -18,6 +18,7 @@ class CreateRecipesTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->text('process');
+            $table->text('material');
         });
     }
 
