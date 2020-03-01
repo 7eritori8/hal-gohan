@@ -14,7 +14,8 @@ class deleteController extends Controller
             [
             'name'=>$recipe->name,
             'process'=>$recipe->process,
-            'id' =>$recipe->id
+            'id' =>$recipe->id,
+            'material'=>$recipe->material,
         ]
         );
 
