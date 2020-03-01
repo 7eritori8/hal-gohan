@@ -14,6 +14,7 @@ class confirmController extends Controller
             $process = $request->get("process");
             $request->session()->put("name", $name);
             $request->session()->put("process",$process);
+            $request->session()->put("material",$material);
 
 //            validateの設定:requiredは入力必須を設定それぞれの項目に
             $this->validate($request,[
